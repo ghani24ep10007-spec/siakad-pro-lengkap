@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id" class="scroll-smooth motion-reduce:scroll-auto">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -60,18 +60,18 @@
         <section id="home" class="scroll-mt-24 overflow-hidden bg-emerald-800 text-white">
             <div class="mx-auto grid max-w-7xl items-center gap-12 px-4 py-16 sm:px-6 sm:py-20 lg:grid-cols-[1.15fr_0.85fr] lg:px-8 lg:py-24">
                 <div class="relative z-10">
-                    <p class="mb-5 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.16em] text-emerald-50">
+                    <p class="mb-5 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.16em] text-emerald-50 motion-safe:animate-fade-up motion-safe:delay-100 motion-reduce:animate-none">
                         <span class="size-2 rounded-full bg-amber-300"></span>
                         Universitas Nahdlatul Ulama Al Ghazali
                     </p>
-                    <h1 class="max-w-3xl text-4xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">
+                    <h1 class="max-w-3xl text-4xl font-black leading-tight tracking-tight motion-safe:animate-fade-up motion-safe:delay-200 motion-reduce:animate-none sm:text-5xl lg:text-6xl">
                         Sistem Informasi
                         <span class="mt-1 block text-amber-300">UNUGHA Cilacap</span>
                     </h1>
-                    <p class="mt-6 max-w-2xl text-base leading-7 text-emerald-50 sm:text-lg sm:leading-8">
+                    <p class="mt-6 max-w-2xl text-base leading-7 text-emerald-50 motion-safe:animate-fade-up motion-safe:delay-300 motion-reduce:animate-none sm:text-lg sm:leading-8">
                         Satu pintu informasi untuk mengenal layanan akademik, katalog kampus, serta pengumuman Universitas Nahdlatul Ulama Al Ghazali Cilacap.
                     </p>
-                    <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+                    <div class="mt-9 flex flex-col gap-3 motion-safe:animate-fade-up motion-safe:delay-500 motion-reduce:animate-none sm:flex-row">
                         <a href="#katalog" class="inline-flex items-center justify-center gap-2 rounded-full bg-amber-300 px-6 py-3.5 text-sm font-extrabold text-emerald-950 shadow-lg shadow-emerald-950/10 transition hover:bg-amber-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-emerald-800">
                             Jelajahi Katalog
                             <svg class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"></path></svg>
@@ -80,13 +80,13 @@
                             Informasi Kontak
                         </a>
                     </div>
-                    <p class="mt-7 text-sm text-emerald-100">Bersama membangun pendidikan dan masa depan.</p>
+                    <div class="mt-8 flex flex-wrap items-center gap-3 motion-safe:animate-fade-up motion-safe:delay-700 motion-reduce:animate-none"><p class="text-sm text-emerald-100">Bersama membangun pendidikan dan masa depan.</p><span class="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-2 text-xs font-semibold text-emerald-50"><span class="size-1.5 rounded-full bg-amber-300"></span><span>Visualizing Technology</span><span class="hidden text-emerald-200 sm:inline">· Mengubah ide teknologi menjadi karya visual</span></span></div>
                 </div>
 
                 <div class="relative mx-auto w-full max-w-md">
-                    <div class="absolute -right-8 -top-8 size-32 rounded-full bg-amber-300/20 blur-2xl" aria-hidden="true"></div>
-                    <div class="absolute -bottom-10 -left-8 size-40 rounded-full bg-lime-300/20 blur-3xl" aria-hidden="true"></div>
-                    <div class="relative rounded-[2rem] border border-white/20 bg-white/10 p-4 shadow-2xl shadow-emerald-950/20 backdrop-blur-sm sm:p-6">
+                    <div class="absolute -right-8 -top-8 size-32 rounded-full bg-amber-300/20 blur-2xl motion-safe:animate-glow motion-reduce:animate-none" aria-hidden="true"></div>
+                    <div class="absolute -bottom-10 -left-8 size-40 rounded-full bg-lime-300/20 blur-3xl motion-safe:animate-glow motion-reduce:animate-none" aria-hidden="true"></div>
+                    <div class="relative rounded-[2rem] border border-white/20 bg-white/10 p-4 shadow-2xl shadow-emerald-950/20 backdrop-blur-sm motion-safe:animate-float motion-reduce:animate-none sm:p-6">
                         <div class="rounded-[1.5rem] bg-white p-5 text-center shadow-xl sm:p-8">
                             <img src="{{ asset('images/logo-unugha.jpg') }}" alt="Lambang resmi UNUGHA Cilacap" class="mx-auto aspect-square w-44 rounded-2xl object-contain sm:w-56">
                             <p class="mt-5 text-xs font-extrabold uppercase tracking-[0.2em] text-emerald-700">UNUGHA • CILACAP</p>
@@ -110,7 +110,7 @@
                 </div>
 
                 <div class="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-                    <article class="group rounded-3xl border border-emerald-950/10 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-emerald-700/30 hover:shadow-xl hover:shadow-emerald-950/5">
+                    <article class="group motion-safe:animate-fade-up motion-safe:delay-100 motion-reduce:animate-none rounded-3xl border border-emerald-950/10 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-emerald-700/30 hover:shadow-xl hover:shadow-emerald-950/5">
                         <div class="flex size-14 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-800 transition group-hover:bg-emerald-800 group-hover:text-white">
                             <svg class="size-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"></path><path stroke-linecap="round" d="M8 7h8M8 11h8"></path></svg>
                         </div>
@@ -121,7 +121,7 @@
                         </a>
                     </article>
 
-                    <article class="group rounded-3xl border border-emerald-950/10 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-emerald-700/30 hover:shadow-xl hover:shadow-emerald-950/5">
+                    <article class="group motion-safe:animate-fade-up motion-safe:delay-200 motion-reduce:animate-none rounded-3xl border border-emerald-950/10 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-emerald-700/30 hover:shadow-xl hover:shadow-emerald-950/5">
                         <div class="flex size-14 items-center justify-center rounded-2xl bg-amber-50 text-amber-700 transition group-hover:bg-amber-400 group-hover:text-emerald-950">
                             <svg class="size-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"></path><path stroke-linecap="round" stroke-linejoin="round" d="M9 9v.01M9 12v.01M9 15v.01M9 18v.01M15 13v.01M15 16v.01M15 19v.01"></path></svg>
                         </div>
@@ -132,7 +132,7 @@
                         </a>
                     </article>
 
-                    <article class="group rounded-3xl border border-emerald-950/10 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-emerald-700/30 hover:shadow-xl hover:shadow-emerald-950/5 md:col-span-2 lg:col-span-1">
+                    <article class="group motion-safe:animate-fade-up motion-safe:delay-300 motion-reduce:animate-none rounded-3xl border border-emerald-950/10 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:border-emerald-700/30 hover:shadow-xl hover:shadow-emerald-950/5 md:col-span-2 lg:col-span-1">
                         <div class="flex size-14 items-center justify-center rounded-2xl bg-lime-50 text-lime-800 transition group-hover:bg-lime-600 group-hover:text-white">
                             <svg class="size-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"></path><path stroke-linecap="round" stroke-linejoin="round" d="M19 3v3M20.5 4.5h-3"></path></svg>
                         </div>
